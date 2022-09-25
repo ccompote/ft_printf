@@ -6,7 +6,7 @@
 /*   By: ccompote <ccompote@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/21 15:12:51 by ccompote          #+#    #+#             */
-/*   Updated: 2022/09/21 15:54:45 by ccompote         ###   ########.fr       */
+/*   Updated: 2022/09/24 16:58:34 by ccompote         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,5 +72,6 @@ int    ft_printf(const char *s, ...)
 
 int main(void)
 {
-    ft_printf("Hello %s, you have %u days left!", "Shura", 10);
+    //ft_printf("Hello %s, you have %u days left!", "Shura", 10);
+	printf("%7.3d", -42);
 }
